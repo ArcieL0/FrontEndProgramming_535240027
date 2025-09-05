@@ -10,7 +10,7 @@
         color: rgb(255, 255, 255);
         padding: 60px;
         background-image: url(image/ProfileBackground.png);
-        background-size: cover;
+        background-size: cover; /*ukuran gambar background akan menyesuaikan supaya menutupi seluruh area elemen, https://www.w3schools.com/css/css3_backgrounds.asp*/
         border-bottom: 2px solid rgb(238, 74, 74);
 }
 
@@ -24,15 +24,15 @@ hr{
 
 .profil {
     width: 120px;      
-    height: 120px;  
-    object-fit: cover; 
-    border-radius: 50%; 
+    height: 120px; 
+    object-fit: cover; /*gambar akan memenuhi box, dipotong secukupnya agar tidak terlihat gepeng., https://www.w3schools.com/css/css3_object-fit.asp*/ 
+    border-radius: 50%; /*untuk membuat gambar menjadi lingkaran, https://www.w3schools.com/css/css3_borders.asp*/
     border: 3px solid rgb(22, 21, 21); 
 }
 
 .container{
     max-width: 90%;
-    margin: 20px auto;
+    margin: 20px auto; /*auto supaya ke arah tengah (margin kiri kanan nilainya sama)*/
 }
 
 .atas > p {
